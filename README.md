@@ -1,2 +1,2 @@
-# fullstackapp
-Project Vue+MySQL
+# fullstack-app
+Vue+MySQL project
