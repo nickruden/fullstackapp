@@ -18,4 +18,4 @@ app.use(cors());
 app.use(Router);
  
 //port
-app.listen(3306, () => console.log('Server running at http://localhost:3306'));
+app.listen(5000, () => console.log('Server running at http://localhost:5000'));
