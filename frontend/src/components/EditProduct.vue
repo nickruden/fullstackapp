@@ -49,7 +49,7 @@ export default {
     async getProductById() {
       try {
         const response = await axios.get(
-          `http://fullstackapp-api.vercel.app/products/${this.$route.params.id}`
+          `https://fullstackapp-api.vercel.app/products/${this.$route.params.id}`
         );
         this.productName = response.data.product_name;
         this.productPrice = response.data.product_price;
@@ -62,7 +62,7 @@ export default {
     async updateProduct() {
       try {
         await axios.put(
-          `http://fullstackapp-api.vercel.app/products/${this.$route.params.id}`,
+          `https://fullstackapp-api.vercel.app/products/${this.$route.params.id}`,
           {
             product_name: this.productName,
             product_price: this.productPrice,
