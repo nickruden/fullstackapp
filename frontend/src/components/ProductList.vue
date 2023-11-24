@@ -45,7 +45,7 @@ export default {
     // Get All Products
     async getProducts() {
       try {
-        const response = await axios.get("http://localhost:5000/products");
+        const response = await axios.get("http://fullstackapp-api.vercel.app/products");
         this.items = response.data;
       } catch (err) {
         console.log(err);
@@ -55,7 +55,7 @@ export default {
     // Delete Product
     async deleteProduct(id) {
       try {
-        await axios.delete(`http://localhost:5000/products/${id}`);
+        await axios.delete(`http://fullstackapp-api.vercel.app/products/${id}`);
         this.getProducts();
       } catch (err) {
         console.log(err);

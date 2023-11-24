@@ -8,7 +8,7 @@
 import AddProduct from "@/components/AddProduct.vue";
 
 export default {
-  name: "Create",
+  name: "CreateProduct",
   components: {
     AddProduct,
   },

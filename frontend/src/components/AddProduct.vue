@@ -45,7 +45,7 @@ export default {
     // Create New product
     async saveProduct() {
       try {
-        await axios.post(`http://localhost:5000/products`, {
+        await axios.post(`http://fullstackapp-api.vercel.app/products`, {
           product_name: this.productName,
           product_price: this.productPrice,
         });

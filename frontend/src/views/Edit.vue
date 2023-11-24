@@ -8,7 +8,7 @@
 import EditProduct from "@/components/EditProduct.vue";
 
 export default {
-  name: "Edit",
+  name: "EditProduct",
   components: {
     EditProduct,
   },

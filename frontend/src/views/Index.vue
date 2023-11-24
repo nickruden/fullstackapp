@@ -8,7 +8,7 @@
 import ProductList from "@/components/ProductList.vue";
 
 export default {
-  name: "Index",
+  name: "IndexProduct",
   components: {
     ProductList,
   },
