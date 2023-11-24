@@ -25,7 +25,9 @@
     </div>
  
     <div class="control">
-      <button class="button is-success" @click="saveProduct">SAVE</button>
+      <button class="button is-success" @click="saveProduct">
+        SAVE
+      </button>
     </div>
   </div>
 </template>

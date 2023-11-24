@@ -24,7 +24,9 @@
       </div>
     </div>
     <div class="control">
-      <button class="button is-success" @click="updateProduct">UPDATE</button>
+      <button class="button is-success" @click="updateProduct">
+        UPDATE
+      </button>
     </div>
   </div>
 </template>

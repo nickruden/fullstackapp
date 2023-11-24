@@ -10,14 +10,18 @@
           <th class="has-text-centered">Actions</th>
         </tr>
       </thead>
-      <!-- вывод данных таблицы с обращением к бд -->
+
       <tbody>
         <tr v-for="item in items" :key="item.product_id">
           <td>{{ item.product_name }}</td>
           <td>{{ item.product_price }}</td>
           <td class="has-text-centered">
-            <router-link :to="{ name: 'Edit', params: { id: item.product_id } }" class="button is-info is-small">Edit</router-link> 
-            <a class="button is-danger is-small" @click="deleteProduct(item.product_id)">Delete</a>
+            <router-link :to="{ name: 'Edit', params: { id: item.product_id } }" class="button is-info is-small">
+              Edit
+            </router-link> 
+            <a class="button is-danger is-small" @click="deleteProduct(item.product_id)">
+              Delete
+            </a>
           </td>
         </tr>
       </tbody>
